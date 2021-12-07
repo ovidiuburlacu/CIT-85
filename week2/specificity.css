@@ -1,0 +1,74 @@
+body {
+    font-size: 36px;
+    text-align:  center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/* 1 set the header to black, italic small caps; add width height and border */
+h1 {
+    color: black;
+    font-style: italic;
+    font-variant: small-caps;
+    width: 90%;
+    height: auto;
+    border: 2px groove orange;
+
+}
+
+/* 2 for all the divs on the page, show the border as a dashed gray line. Set border, width and height*/
+div{
+    width: auto;
+    height: auto;
+    border: 2px dashed grey;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* 3 for all p elements, set border, width and height*/
+p {
+    border: 1px dotted burlywood;
+    width: 90%;
+    height: auto;
+}
+
+/* 4 for elements of class paragraph, set font */
+.paragraphs {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+/* 5 if there are more paragraphs in a div, alternate the color */
+div p:nth-child(even) {
+    color: navy;
+}
+div p:nth-child(odd)
+{
+    color:darkcyan;
+}
+
+/* 6 set a border for elements that are only child */
+article:only-child {
+    border: 3px ridge royalblue;
+}
+
+/* 7 elements with a certain id get a different font  */
+#finalThoughts {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 8 every third element with class paragraph gets a more bolded font */
+.paragraphs:nth-child(3n+0) {
+    font-weight: 500;
+}
+
+/* 9 all p elements outside a div are left-aligned */
+div ~ p {
+    text-align: left;
+}
+
+/* 10 first line of a paragraph has red color */
+p::first-line{
+    color:red;
+}
