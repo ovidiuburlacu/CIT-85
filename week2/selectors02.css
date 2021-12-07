@@ -1,0 +1,32 @@
+body{
+    font-size: 36px;
+}
+
+li:first-child{
+    color:red;
+}
+
+article:last-child {
+    background-color: yellow;
+}
+
+li:nth-child(even) {
+    color: brown;
+}
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+tr:nth-child(odd){
+    background-color: darkgray;
+}
+
+tr:nth-child(5){
+    background-color: firebrick;
+}
+
+article:only-child{background-color: blanchedalmond;}
+
+li:nth-child(4n+6){
+    color: cornflowerblue;
+}
