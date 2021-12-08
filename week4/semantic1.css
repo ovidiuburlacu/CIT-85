@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+}
+
+header{
+    background-color: darkgray;
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;     /*this is used to vertically center the text, when using block display*/
+    text-align: center;
+}
+
+section {
+    background-color: darkgray;
+    margin: 5px;
+    display: block;
+    width: 60%;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+}
+
+article{
+    background-color: grey;
+    margin: 10px;
+    display: block;
+    width: auto;
+    line-height: 100px;
+    text-align: center;
+}
+
+aside{
+    background-color: darkgray;
+    margin: 5px;
+    display: block;
+    width: 35%;
+    float: right;
+    line-height: 100px;
+}
+
+footer{
+    background-color: darkgray;
+    margin: 10px;
+    padding: 3px;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    line-height: 100px;
+    width: 100%;
+}
