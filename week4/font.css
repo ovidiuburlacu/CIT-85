@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+}
+
+/*1. For the div in the class serif, set the font to a generic serif*/
+.serif {
+    font-family: serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+/*2. for the divs in class sansSerif, set the font to a generic sans-serif */
+.sansSerif {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 80%;
+}
+
+/*3. for the divs in googleFont class set the font to a google font*/
+.googleFont{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/* 4. transform all the text of sentence to uppercase and italic */
+.itUpper{
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+/*5. set spacing between characters */
+.charSpacing{
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/*6. add shadow to a text in h1 */
+h1 {
+    font-size: 3rem;
+    text-shadow: 5px -4px 3px orangered;
+}
+
+/*7. remove the underline, add it only on hover */
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 2px 1px cyan;
+}
+
+
+/*8. strikeout text */
+.strikeout{
+    text-decoration: line-through;   
+}
+
+/*9. indent first line*/
+.indent{
+    text-indent: 10%;
+}
