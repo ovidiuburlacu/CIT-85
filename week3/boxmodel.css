@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+}
+
+.inlineClass {
+    width: 100px;
+    height: 100px;    
+    display: inline;    /*this is the only difference in css*/
+    margin: 10px;
+    background-color: green;
+    border: 2px dashed black;
+}
+
+.blockClass {
+    width: 100px;
+    height: 100px;    
+    display: block;        /*this is the only difference in css*/
+    margin: 10px;
+    background-color: blue;
+    border: 2px dotted black;
+}
+
+span {
+    color: red;
+    margin: 10px;
+}
