@@ -1,0 +1,47 @@
+html{
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    height: 600px;
+}
+
+div{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.main {
+    height: 100%;
+    width: 79%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    border: 2px solid red;
+}
+
+.flex1 {
+    flex-grow: 1;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(0,46,107);
+}
+
+
+.flex2 {
+    flex-grow: 1;
+    width: 100%;
+    background-color: rgb(0,88,204);
+}
+
+.flex3 {
+    flex-grow: 1;
+    background-color: rgb(171,204,246);
+}
+
