@@ -1,0 +1,42 @@
+/*reset*/
+html, body, header,article, aside, footer{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*positioning*/
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, article, aside, footer{
+    width: 100%;
+}
+
+/*styling*/
+body{
+    font-weight: bold;
+}
+header, article, aside, footer{
+    padding: 10px;
+    text-align: center;
+}
+header{
+    background: tomato;
+}
+article{
+    text-align: left;
+    background: deepskyblue;
+}
+aside:nth-child(3){
+    background-color: yellow;
+}
+aside:nth-child(4){
+    background-color: blueviolet;
+}
+footer{
+    background-color: limegreen;
+}
