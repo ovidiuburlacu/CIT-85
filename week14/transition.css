@@ -1,0 +1,30 @@
+html, body{
+    border: 2px solid black;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    /*format as circle*/
+    border-radius: 50%;
+    background-color: blue;
+    border: 4px solid black;
+
+    /*center and format text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+div:hover{
+    color:black;
+    background-color: yellow;
+}
+
+.transitionbk{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+}
