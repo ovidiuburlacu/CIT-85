@@ -1,0 +1,24 @@
+html, body, div{
+    border: 2px solid red;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+#mover {
+    /*change the style to indicate which div is the mover*/
+    background-color: green;
+
+    position: relative;
+    /*move the div 20px to the right and down*/
+ /*   top: 20px;
+    left: 20px;
+*/
+    /*move the div 20px down and 10px to the left*/
+    top: 20px;
+    right: 10px;
+}
