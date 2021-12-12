@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: radial-gradient(#e66465, #9198e5);
+}
+
+.animatedDiv {
+    position: relative;
+    left: 0;
+    animation-name: move-around;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move-around {
+    0% {left: 0; top: 0;}
+    25% {left: 33%; top:33%}
+    50% {left: 66%; top:0}
+    75% {left: 33%; top:-33%}
+    100% {left: 0; top: 0;}    
+}
