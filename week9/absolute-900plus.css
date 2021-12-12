@@ -1,0 +1,4 @@
+body{
+    /*To demonstrate the positioning of the absolute div, we change the body to have position set, when the screen width is 900px or more*/
+     position: relative;  
+}

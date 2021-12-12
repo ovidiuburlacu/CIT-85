@@ -1,0 +1,33 @@
+html{
+    border: 2px solid blue;
+}
+
+body{
+    width: 40%;
+    border: 2px solid green;
+    /* on screens less than 900, the absolute div is positioned relative to html element (because no other element up the tree has position set)*/
+    /*then, on 900px, position is set to relatice for the body, and the absolute div gets positioned based on the margins of the body element*/
+}
+
+div{
+    border: 2px solid red;
+    color: white;
+}
+
+#rel{
+    /*by commenting out the position line, we can demonstrate the positioning of the absolute div*/
+  /*  position: relative;    top: 100px; */
+    width: 600px;
+    height: 600px;
+    background-color: deepskyblue;
+}
+
+#abs{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+
+    width: 300px;
+    height: 300px;
+    background-color: dimgray;
+}
